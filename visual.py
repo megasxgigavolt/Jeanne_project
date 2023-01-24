@@ -3,8 +3,6 @@ import streamlit as st
 import seaborn as sns
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
-import warnings
-warnings.filterwarnings("ignore")
 
 st.set_page_config(layout="wide")
 st.set_option('deprecation.showPyplotGlobalUse', False)
