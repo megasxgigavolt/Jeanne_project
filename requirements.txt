@@ -3,3 +3,5 @@ pandas
 uvicorn
 matplotlib
 seaborn==0.11.0
+statsmodel
+warnings
