@@ -2,6 +2,6 @@ streamlit
 pandas
 uvicorn
 matplotlib
-seaborn
+seaborn==0.11.0
 statmodels
 warnings
