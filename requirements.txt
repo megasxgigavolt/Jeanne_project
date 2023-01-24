@@ -1,8 +1,6 @@
-python==3.11.1
 streamlit
 pandas
 uvicorn
 matplotlib
 seaborn==0.11.0
-statmodels==0.13.5
 warnings
