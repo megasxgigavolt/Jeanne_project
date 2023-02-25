@@ -40,77 +40,77 @@ if series2=="Stringency Index":
     with col1:
         st.line_chart(data=data,x="Date",y=["StringencyIndex"])
         plt.figure(figsize=(18,9))
-        sns.regplot(x="StringencyIndex",y="hate_tweets",data=data)
-        st.pyplot()
+        # sns.regplot(x="StringencyIndex",y="hate_tweets",data=data)
+        # st.pyplot()
 
-        x = data["StringencyIndex"]
-        y = data["hate_tweets"]
-        x = sm.add_constant(x)
-        model = sm.OLS(y, x).fit()
-        st.write(model.summary())
+        # x = data["StringencyIndex"]
+        # y = data["hate_tweets"]
+        # x = sm.add_constant(x)
+        # model = sm.OLS(y, x).fit()
+        # st.write(model.summary())
 
     with col2:
         st.line_chart(data=data,x="Date",y=["hate_crimes"])
         plt.figure(figsize=(18,9))
-        sns.regplot(x="hate_crimes",y="hate_tweets",data=data)
-        st.pyplot()
+        # sns.regplot(x="hate_crimes",y="hate_tweets",data=data)
+        # st.pyplot()
 
-        x = data["hate_crimes"]
-        y = data["hate_tweets"]
-        x = sm.add_constant(x)
-        model = sm.OLS(y, x).fit()
-        st.write(model.summary())
+        # x = data["hate_crimes"]
+        # y = data["hate_tweets"]
+        # x = sm.add_constant(x)
+        # model = sm.OLS(y, x).fit()
+        # st.write(model.summary())
 
 
     with col3:
         st.line_chart(data=data,x="Date",y=["hate_tweets"])
         plt.figure(figsize=(18,9))
-        sns.regplot(x="StringencyIndex",y="hate_crimes",data=data)
-        st.pyplot()
+        # sns.regplot(x="StringencyIndex",y="hate_crimes",data=data)
+        # st.pyplot()
 
-        x = data["StringencyIndex"]
-        y = data["hate_crimes"]
-        x = sm.add_constant(x)
-        model = sm.OLS(y, x).fit()
-        st.write(model.summary())
+        # x = data["StringencyIndex"]
+        # y = data["hate_crimes"]
+        # x = sm.add_constant(x)
+        # model = sm.OLS(y, x).fit()
+        # st.write(model.summary())
     
 
 else:
     with col1:
         st.line_chart(data=data,x="Date",y=["covid_cases"])
         plt.figure(figsize=(18,9))
-        sns.regplot(x="covid_cases",y="hate_tweets",data=data)
-        st.pyplot()
+        # sns.regplot(x="covid_cases",y="hate_tweets",data=data)
+        # st.pyplot()
 
-        x = data["covid_cases"]
-        y = data["hate_tweets"]
-        x = sm.add_constant(x)
-        model = sm.OLS(y, x).fit()
-        st.write(model.summary())
+        # x = data["covid_cases"]
+        # y = data["hate_tweets"]
+        # x = sm.add_constant(x)
+        # model = sm.OLS(y, x).fit()
+        # st.write(model.summary())
 
     with col2:
         st.line_chart(data=data,x="Date",y=["hate_tweets"])
         plt.figure(figsize=(18,9))
-        sns.regplot(x="hate_crimes",y="hate_tweets",data=data)
-        st.pyplot()
+        # sns.regplot(x="hate_crimes",y="hate_tweets",data=data)
+        # st.pyplot()
 
-        x = data["hate_crimes"]
-        y = data["hate_tweets"]
-        x = sm.add_constant(x)
-        model = sm.OLS(y, x).fit()
-        st.write(model.summary())
+        # x = data["hate_crimes"]
+        # y = data["hate_tweets"]
+        # x = sm.add_constant(x)
+        # model = sm.OLS(y, x).fit()
+        # st.write(model.summary())
 
     with col3:
         st.line_chart(data=data,x="Date",y=["hate_crimes"])
         plt.figure(figsize=(18,9))
-        sns.regplot(x="covid_cases",y="hate_crimes",data=data)
-        st.pyplot()
+        # sns.regplot(x="covid_cases",y="hate_crimes",data=data)
+        # st.pyplot()
 
-        x = data["covid_cases"]
-        y = data["hate_crimes"]
-        x = sm.add_constant(x)
-        model = sm.OLS(y, x).fit()
-        st.write(model.summary())
+        # x = data["covid_cases"]
+        # y = data["hate_crimes"]
+        # x = sm.add_constant(x)
+        # model = sm.OLS(y, x).fit()
+        # st.write(model.summary())
 
 
 
